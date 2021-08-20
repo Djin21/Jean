@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="dark">
+    
+    <!---------------- Topbar ----------------->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: transparent;">
+            <div class="container">
+                <a href="navbar-brand ms-5" style="color: rgb(90, 58, 119); font-size: 22px; font-weight: 500;">Jean</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center align-items-center" id="menu">
+                    <ul class="navbar-nav align-items-center me-5 ms-sm-auto ms-md-0">
+                        <li class="nav-item">
+                            <a href="#a-propos" class="nav-link">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#competence" class="nav-link">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------- Main ---------------->
+
+    <div class="container">
+        <!---------------------- A propos ----------------------->
+        <div class="row align-items-center" id="a-propos">
+            <div class="offset-4 offset-md-1 col-4">
+                <img src="img/blob.svg" alt="">
+            </div>
+            <div class="col-md-4 text-center px-xs-5 m-md-0 pt-md-5">
+                <p>Je me nomme <strong>BADANE Jean Chretien</strong>, Developpeur frontend, et une bonne expérience en programmation en c, je suis capable de vous fournir un rendu de qualité. </p>
+                <a href="#contact" class="btn"  style="background-color: rgb(149, 113, 197); color: white;">Contacter moi</a>
+            </div>
+            <div class="offset-lg-2 col d-flex flex-lg-column flex-row justify-content-center pt-3">
+                <i class="fa fa-linkedin py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
+                <i class="fa fa-github py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
+                <i class="fa fa-twitter py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
+            </div>
+        </div>
+
+        <!---------------------- CV ----------------------->
+
+        <div class="row mt-5">
+            <div class="row text-center">
+                <h2 class="mx-auto">C.V.</h2>
+            </div>
+            <div class="row text-center mt-5">
+                <h4 class="col competences_link">Compétences </h4>
+            </div>
+        </div>
+
+        <!---------------------- Competences ----------------------->
+
+        <div class="row mt-5">
+            <div class="row" id="competence">
+                <div class="col-md-3">
+                    <h5 class="text-center text-md-start">Frontend</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">
+                            <a href="">HTML</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <a href="">CSS</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 55%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">55%</div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <a href="">Javascript</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 40%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-center text-md-start">Backend</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">
+                            <a href="">PHP</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 15%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">15%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-center text-md-start">Jeux video</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">
+                            <a href="">Godot Engine</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 30%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-center text-md-start">Langage de programmation</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">
+                            <a href="">Python</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <a href="">C</a>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%; background-color: rgb(149, 113, 197);" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!---------------------- Parcours ----------------------->
+        <div class="row mt-4">
+            <div class="row text-center">
+                <h4>Parcours</h4>
+            </div>
+            <div class="row mt-4">
+                <h5 class="offset-2 offset-md-4 col-2 academique active" style="cursor: pointer;">Academique</h5>
+                <h5 class="offset-2 offset-md-1 col-2 professionnel" style="cursor: pointer;">Professionnel</h5>
+            </div>
+            <div class="row my-5 parcours-aca">
+                <!-------------------- Cards ------------------->
+                <div class="row">
+                    <div class="card col-7 col-md-3 parcours-card">
+                        <div class="card-body">
+                            <div class="card-title">Baccalaureat serie C</div>
+                            <p>Lycee classique et moderne de Meiganga</p>
+                            <p class="text-muted"><i class="fa fa-calendar"></i>2019</p>
+                        </div>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
+                        <div class="trait"></div>
+                        <div class="cercle"></div>
+                        <div class="trait"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-7 col-md-3 parcours-card">
+                        <div class="card-body">
+                            <div class="card-title">Licence 1</div>
+                            <p>Université de Yaoundé 1</p>
+                            <p class="text-muted"><i class="fa fa-calendar"></i>2020</p>
+                        </div>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
+                        <div class="trait"></div>
+                        <div class="cercle"></div>
+                        <div class="trait"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-7 col-md-3 parcours-card">
+                        <div class="card-body">
+                            <div class="card-title">Licence 1</div>
+                            <p>Institut Universitaire de Technologie de Ngaoundéré</p>
+                            <p class="text-muted"><i class="fa fa-calendar"></i>2021</p>
+                        </div>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
+                        <div class="trait"></div>
+                        <div class="cercle"></div>
+                        <div class="trait"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 parcours-pro d-none">
+                <div class="row">
+                    <div class="card col-7 col-md-3 parcours-card">
+                        <div class="card-body">
+                            <div class="card-title">CDTIC</div>
+                            <p>Stage Ouvrier</p>
+                            <p class="text-muted"><i class="fa fa-calendar"></i>Juillet 2021</p>
+                        </div>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
+                        <div class="trait"></div>
+                        <div class="cercle"></div>
+                        <div class="trait"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------- Realsations ----------------------->
+        <div class="row py-4">
+            <div class="row text-center">
+                <h4>Realisations</h4>
+            </div>
+            <div class="row my-5">
+                <div class="mx-auto">
+                    <div class="card card-cover mx-auto realisation-card" type="button" data-bs-toggle="modal" data-bs-target="#awele_modal">
+                        <div class="d-flex flex-column justify-content-end text-center p-4 h-100">
+                            <h3 class="text-center">Awale</h3>
+                            <p>Langage utilisé: C</p>
+                            <a class="text-muted" href="" type="button" data-bs-toggle="modal" data-bs-target="#awele_modal">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!---------------- Modal-------------------->
+
+        <div class="modal fade" id="awele_modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="modalLabel">Awale</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <h4>Presentation</h4>
+                                <p>l’awalé est un jeu
+                                    typiquement africain qui existe depuis de nombreuses années sur le continent africain. L’Awalé
+                                    est un jeu de semaille, c’est-à-dire qu’il faut semer les graines tout au long de la partie. Ce jeu
+                                    où le hasard n’a pas sa place est devenu très populaire en Europe il y a quelques années.</p>
+                            </div>
+                            <div class="row">
+                                <h4>Principe</h4>
+                                <p>
+                                    Le principe de ce jeu est de « semer et capturer » des cailloux, des pierres ou des graines dans
+                                    les petites coupelles du plateau de jeu. Composé d’un plateau de jeu en bois avec plusieurs
+                                    trous et de pierres ou graines, l’awalé se joue à 2 joueurs.
+                                    Au début de la partie, chaque trou reçoit 4 graines le but étant de semer les graines de trou en
+                                    trou, tout en essayant de récupérer le plus de graines possibles à la fin de la partie pour gagner
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h4>Regles du jeu</h4>
+                                <p>Plusieurs versions du jeu existent avec des règles tout aussi différentes toutefois, dans le cadre
+                                    de ce projet, les règles qui ont été appliquées sont les suivantes :
+                                    L'awalé se joue sur un plateau composé de 2 rangées de 6 trous chacune ; chaque trou
+                                    recevant 4 graines au début du jeu.
+                                    Le but du jeu est de récolter plus de graines que son adversaire.
+                                    Chaque joueur se place devant une rangée de 6 cases, qui deviennent alors son camp.
+                                    Chacun son tour, un joueur prend toutes les graines d'une des cases de son camp et les sèment
+                                    une par une dans les cases suivantes dans le sens inverse de celui des aiguilles d'une montre
+                                    Si la dernière graine semée est déposée dans une case du camp adverse, dans laquelle il n'y a,
+                                    avant qu'il ne la pose, qu'une ou 2 graines, le joueur ramasse toutes les graines de ce trou (y
+                                    compris celle qu’il vient de semer). De même, il ramasse les graines des cases précédentes du
+                                    camp adverse si elles sont au nombre de 2 ou 3. En revanche, il ne récolte rien s'il sème sa
+                                    dernière graine dans une case vide ou dotée de plus de 3 graines après qu’il ait semé.
+                                    Dernière règle, un joueur est obligé de « nourrir » son adversaire, ce qui veut dire qu'il doit
+                                    jouer de manière à laisser au moins une graine dans le camp adverse. Si un joueur ne peut
+                                    nourrir son adversaire ou ne peut plus jouer, la partie s’arrête. Il est possible d’arrêter une partie
+                                    si le nombre de graines sur le plateau de jeu soit trop faible pour pouvoir permettre des prises
+                                    (Dans notre cas, on a considéré qu’à partir de 4 graines ou moins la partie peut s’arrêter).
+                                    Chacun compte alors ses graines (cela sera fait automatiquement) et le joueur en ayant le plus
+                                    a gagné.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="https://github.com/CDTIC/V2" style="color: white;">Code source</a></button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------- Contact ----------------------->
+
+        <div class="row" id="contact">
+            <div class="row pt-4">
+                <div class="row text-center">
+                    <h3>Contact</h3>
+                </div>
+                <div class="row">
+                    <p class="text-center my-4" style="font-size: 18px;">Vous avez besoin de mes services, contectez moi :</p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="" class="col-lg-10">
+                    <div class="row">
+                        <div class="offset-lg-1 col-lg-5">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" name="nom_input" id="nom" class="form-control">
+                        </div>
+                        <div class="col-lg-5">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" name="email_input" id="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="offset-lg-1 col-lg-10">
+                            <label for="sujet" class="form-label">Sujet</label>
+                            <textarea name="sujet_input" id="sujet" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-5 d-flex justify-content-center">
+                        <button type="submit" class="btn" style="background-color: rgb(149, 113, 197); width: 7rem;">Envoyer</button>
+                    </div>
+                </form>
+                <div class="col-lg-2 d-flex flex-wrap flex-lg-column py-lg-5">
+                    <div class="col d-flex flex-row mt-lg-3">
+                        <i class="fa fa-whatsapp" style="color: rgba(3, 3, 3, 0.712);"></i>
+                        <h6 class="ms-1">691983047</h6>
+                    </div>
+                    <div class="col me-5 me-sm-0 d-flex flex-row">
+                        <i class="fa fa-google" style="color: rgba(3, 3, 3, 0.712);"></i>
+                        <h6 class="ms-1">johniannis.c@gmail.com</h6>
+                    </div>
+                    <div class="col d-flex flex-row ps-lg-0 mb-5">
+                        <i class="fa fa-facebook" style="color: rgba(3, 3, 3, 0.712);"></i>
+                        <h6 class="ms-1">Jean badane</h6>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="scripts/js/bootstrap.bundle.js"></script>
+
+    <script>
+        // Definition du positionnement des cards dans la section parcours
+
+        var cards = document.querySelectorAll(".parcours-card")
+        var lines = document.querySelectorAll(".line")
+        for(var i=0; i<cards.length; i++){
+            if(i%2==0){
+                cards[i].classList.add("offset-3")
+                lines[i].classList.add("order-last")
+            }else{
+                cards[i].classList.add("offset-3")
+                cards[i].classList.add("offset-md-0")
+                lines[i].classList.add("offset-md-6")
+                lines[i].classList.add("order-md-first")
+            }
+        }
+
+        // Definition du changement de parcours (Entre professionnel et academique )
+
+        var professionnel = document.querySelector(".professionnel")
+        var academique = document.querySelector(".academique")
+
+        professionnel.addEventListener('click', ()=>{
+            professionnel.classList.add("active")
+            academique.classList.remove("active")
+            document.querySelector('.parcours-aca').classList.add('d-none')
+            document.querySelector('.parcours-pro').classList.remove('d-none')
+        })
+
+        academique.addEventListener('click', ()=>{
+            academique.classList.add("active")
+            professionnel.classList.remove("active")
+            document.querySelector('.parcours-aca').classList.remove('d-none')
+            document.querySelector('.parcours-pro').classList.add('d-none')
+        })
+
+
+    </script>
+
+</body>
+</html>

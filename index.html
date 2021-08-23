@@ -41,36 +41,30 @@
 
     <div class="container">
         <!---------------------- A propos ----------------------->
-        <div class="row align-items-center" id="a-propos">
-            <div class="offset-4 offset-md-1 col-4">
-                <img src="img/blob.svg" alt="">
+        <div class="row align-items-center mt-4">
+            <div class="offset-4 offset-md-1 col-4 d-flex justify-content-center pt-5 pb-3">
+                <img class=" my-auto" src="img/profil.png" alt="">
             </div>
             <div class="col-md-4 text-center px-xs-5 m-md-0 pt-md-5">
                 <p>Je me nomme <strong>BADANE Jean Chretien</strong>, Developpeur frontend, et une bonne expérience en programmation en c, je suis capable de vous fournir un rendu de qualité. </p>
                 <a href="#contact" class="btn"  style="background-color: rgb(149, 113, 197); color: white;">Contacter moi</a>
             </div>
             <div class="offset-lg-2 col d-flex flex-lg-column flex-row justify-content-center pt-3">
-                <i class="fa fa-linkedin py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
-                <i class="fa fa-github py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
-                <i class="fa fa-twitter py-lg-3 px-3" style="color: rgb(149, 113, 197);"></i>
+                <a href="https://www.linkedin.com/in/jean-chretien-badane-40b97a21a"><i class="fa fa-linkedin py-lg-3 px-3 link" style="color: rgb(149, 113, 197);"></i></a>
+                <a href="https://www.github.com/Djin21"><i class="fa fa-github py-lg-3 px-3 link" style="color: rgb(149, 113, 197);"></i></a>
+                <a href="https://www.twitter.com/@jean_badane"><i class="fa fa-twitter py-lg-3 px-3 link" style="color: rgb(149, 113, 197);"></i></a>
             </div>
         </div>
 
-        <!---------------------- CV ----------------------->
-
-        <div class="row mt-5">
-            <div class="row text-center">
-                <h2 class="mx-auto">C.V.</h2>
-            </div>
-            <div class="row text-center mt-5">
-                <h4 class="col competences_link">Compétences </h4>
-            </div>
-        </div>
+        
 
         <!---------------------- Competences ----------------------->
 
-        <div class="row mt-5">
-            <div class="row" id="competence">
+        <div class="row pt-5" id="competence">
+            <div class="row text-center py-5">
+                <h3 class="col competences_link">Compétences </h3>
+            </div>
+            <div class="row pt-0">
                 <div class="col-md-3">
                     <h5 class="text-center text-md-start">Frontend</h5>
                     <ul class="list-unstyled">
@@ -134,13 +128,12 @@
                     </ul>
                 </div>
             </div>
-
-        </div>
+            </div>
 
         <!---------------------- Parcours ----------------------->
         <div class="row mt-4">
             <div class="row text-center">
-                <h4>Parcours</h4>
+                <h3>Parcours</h3>
             </div>
             <div class="row mt-4">
                 <h5 class="offset-2 offset-md-4 col-2 academique active" style="cursor: pointer;">Academique</h5>
@@ -148,12 +141,14 @@
             </div>
             <div class="row my-5 parcours-aca">
                 <!-------------------- Cards ------------------->
-                <div class="row">
-                    <div class="card col-7 col-md-3 parcours-card">
-                        <div class="card-body">
+                <div class="row parcours-line">
+                    <div class="card col-7 col-md-3 parcours-card" type="button" data-bs-toggle="modal" data-bs-target="#pacours_bacc_modal">
+                        <div class="card-body py-2">
                             <div class="card-title">Baccalaureat serie C</div>
-                            <p>Lycee classique et moderne de Meiganga</p>
-                            <p class="text-muted"><i class="fa fa-calendar"></i>2019</p>
+                            <div class="row">
+                                <p class="col-6">Meiganga</p>
+                                <p class="text-muted col-4" style="font-size: 0.8em;"><i class="fa fa-calendar fa-sm"></i>2019</p>
+                            </div>
                         </div>
                     </div>
                     <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
@@ -162,12 +157,14 @@
                         <div class="trait"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="card col-7 col-md-3 parcours-card">
-                        <div class="card-body">
+                <div class="row parcours-line">
+                    <div class="card col-7 col-md-3 parcours-card" type="button" data-bs-toggle="modal" data-bs-target="#pacours_licence1Yde_modal">
+                        <div class="card-body py-2">
                             <div class="card-title">Licence 1</div>
-                            <p>Université de Yaoundé 1</p>
-                            <p class="text-muted"><i class="fa fa-calendar"></i>2020</p>
+                            <div class="row">
+                                <p class="col-6">Yaounde 1</p>
+                                <p class="text-muted col-4" style="font-size: 0.8em;"><i class="fa fa-calendar fa-sm"></i>2020</p>
+                            </div>
                         </div>
                     </div>
                     <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
@@ -176,12 +173,14 @@
                         <div class="trait"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="card col-7 col-md-3 parcours-card">
-                        <div class="card-body">
+                <div class="row parcours-line">
+                    <div class="card col-7 col-md-3 parcours-card" type="button" data-bs-toggle="modal" data-bs-target="#pacours_licece1IUT_modal">
+                        <div class="card-body py-2">
                             <div class="card-title">Licence 1</div>
-                            <p>Institut Universitaire de Technologie de Ngaoundéré</p>
-                            <p class="text-muted"><i class="fa fa-calendar"></i>2021</p>
+                            <div class="row">
+                                <p class="col-6">N'Gaoundéré</p>
+                                <p class="text-muted col-4" style="font-size: 0.8em;"><i class="fa fa-calendar fa-sm"></i>2021</p>
+                            </div>
                         </div>
                     </div>
                     <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
@@ -192,12 +191,14 @@
                 </div>
             </div>
             <div class="row my-5 parcours-pro d-none">
-                <div class="row">
-                    <div class="card col-7 col-md-3 parcours-card">
-                        <div class="card-body">
+                <div class="row parcours-line">
+                    <div class="card col-7 col-md-3 parcours-card" type="button" data-bs-toggle="modal" data-bs-target="#pacours_cdtic_modal">
+                        <div class="card-body py-2">
                             <div class="card-title">CDTIC</div>
-                            <p>Stage Ouvrier</p>
-                            <p class="text-muted"><i class="fa fa-calendar"></i>Juillet 2021</p>
+                            <div class="row">
+                                <p class="col-6">N'Gaoundéré</p>
+                                <p class="text-muted col-6" style="font-size: 0.8em;"><i class="fa fa-calendar fa-sm"></i>Juillet 2021</p>
+                            </div>
                         </div>
                     </div>
                     <div class="offset-1 offset-md-0 col-1 line d-flex flex-column align-items-center ">
@@ -209,10 +210,11 @@
             </div>
         </div>
 
+
         <!---------------------- Realsations ----------------------->
         <div class="row py-4">
             <div class="row text-center">
-                <h4>Realisations</h4>
+                <h3>Realisations</h3>
             </div>
             <div class="row my-5">
                 <div class="mx-auto">
@@ -281,7 +283,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="https://github.com/CDTIC/V2" style="color: white;">Code source</a></button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="https://github.com/CDTIC/Awale" style="color: white;">Code source</a></button>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                     </div>
                 </div>
@@ -341,6 +343,152 @@
 
     </div>
 
+
+    <!---------------- Modal-------------------->
+
+    <!---------------- Baccalaureat -------------------->
+
+    <div class="modal fade" id="pacours_bacc_modal" tabindex="-1" aria-labelledby="modalLabelParcours" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLabelParcours">Baccalaureat</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <h5 class="col-4">Serie :</h5>
+                            <p class="col">C</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Etablissement:</h5>
+                            <p class="col">Lycée Classique et Moderne de Meiganga</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Ville :</h5> 
+                            <p class="col">Meiganga</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Année :</h5> 
+                            <p class="col">2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- Licence 1 -------------------->
+
+    <div class="modal fade" id="pacours_licence1Yde_modal" tabindex="-1" aria-labelledby="modalLabelParcours" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLabelParcours">Licence 1</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <h5 class="col-4">Filière :</h5>
+                            <p class="col">Informatique</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Etablissement:</h5>
+                            <p class="col">Université de Yaounde 1</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Ville :</h5> 
+                            <p class="col">Yaounde</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Année :</h5> 
+                            <p class="col">2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- Licence 1 IUT -------------------->
+
+    <div class="modal fade" id="pacours_licece1IUT_modal" tabindex="-1" aria-labelledby="modalLabelParcours" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLabelParcours">Licence 1</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <h5 class="col-4">Filière :</h5>
+                            <p class="col">Genie Informatique</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Etablissement:</h5>
+                            <p class="col">Institut Universitaire de Technologie</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Ville :</h5> 
+                            <p class="col">Ngaoundéré</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Année :</h5> 
+                            <p class="col">2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- CDTIC -------------------->
+
+    <div class="modal fade" id="pacours_cdtic_modal" tabindex="-1" aria-labelledby="modalLabelParcours" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLabelParcours">CDTIC</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <h5 class="col-4">Objectifs :</h5>
+                            <p class="col">Stage ouvrier</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Etablissement:</h5>
+                            <p class="col">Centre de Developpement des Technologies de l'information et de la Communication</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Ville :</h5> 
+                            <p class="col">Ngaoundéré</p>
+                        </div>
+                        <div class="row">
+                            <h5 class="col-4">Periode :</h5> 
+                            <p class="col">Juillet 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="scripts/js/bootstrap.bundle.js"></script>
 

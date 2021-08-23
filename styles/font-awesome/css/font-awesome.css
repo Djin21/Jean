@@ -27,6 +27,10 @@
   color: var(--fa-color);
 }
 /* makes the font 33% larger relative to the icon container */
+.fa-sm{
+  font-size: 0.8em;
+}
+
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;

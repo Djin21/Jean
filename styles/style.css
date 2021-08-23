@@ -19,11 +19,16 @@ a{
     padding: 0 10px;
 }
 
-.fa:hover{
+.fa.link:hover{
     transform: translate(10px, 0);
 }
 
 /*----------------------------- navbar ----------------------------*/
+
+.navbar{
+    background-color: rgb(245, 244, 247) !important;
+    box-shadow: 0 2px 5px rgba(136, 136, 136, 0.26);
+}
 
 .navbar .nav-item .nav-link{
     color: rgb(44, 43, 43);
@@ -44,6 +49,15 @@ h5.active{
 .parcours-card{
     border: none;
     padding: 20px 0;
+    transition: transform 0.5s;
+}
+
+.parcours-card:hover{
+    transform: translate(-15px, 0) scale(1.05);
+}
+
+.parcours-card.offset-md-0:hover{
+    transform: translate(15px, 0) scale(1.05);
 }
 
 .parcours-card .card-body{

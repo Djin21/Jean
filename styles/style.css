@@ -110,6 +110,15 @@ h5.active{
     background-color: rgb(149, 113, 197);
 }
 
+@media screen and (max-width:360px){
+    .academique, .professionnel{
+        font-size: 18px;
+    }
+    .professionnel{
+        margin-left: 80px;
+    }
+}
+
 /*----------------------------- Realisations ----------------------------*/
 
 .realisation-card{
